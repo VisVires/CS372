@@ -1,12 +1,12 @@
 //////////////////////
-analog to digital = 51 Kpbs nodal processing = 51000 bits/sec = 51 bits/ms = 1/51 ms/bit = .01961
+analog to digital = 51 Kpbs nodal processing = 51000 bits/sec = L/proc = .005803
 R transmission rate = 2 Mbps = 2,000,000
 packet length from A L = 37 B or 296 bits
 Transmission Delay = L/R = 296/2000000 = .000148 sec
 distance = 656.9 km = 656900 m
 speed s = 2.5 E 8 m/sec
 propagation delay = 656900/2.5*10^8 = .0026276
-.196 + .148 + 2.6276 = 
+5.80 + .148 + 2.6276 = 
 MY ANSWER = 2.97
 Actual answer = 8.58
 /////////////////////////
@@ -91,4 +91,5 @@ d = 161.2 km = 161,200 m
 s =  2.7 * 10^8 m/s
 161,200/s = .00059703 sec = .59703ms
 3 (.59703 + 3.601) = 12.5941
+WRONG BECAUSE YOU MULTIPLY L/R BY 3 not the whole equation
 
