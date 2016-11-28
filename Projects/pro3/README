@@ -1,0 +1,26 @@
+FTP server created and tested using OSU ENGR flip server
+
+Compile ftserver.c using: make
+Change permissions on ftclient.py using: chmod +777 ftclient.py
+
+Run Server
+	To start Server use command: ftserver <PORT_NUMBER>
+	Example: ftserver 30800
+	Get Confirmation that Server is ready
+
+Run Client
+	To start Client use command: ftclient.py <SERVER_HOST> <SERVER_PORT> <COMMAND> [FILENAME] <DATA_PORT>
+	Valid Commands can be either -g or -l
+	-l : returns server directory
+	-g : when paired with a file copies the file to the client directory
+	Valid Server Hosts can be either flip1, flip2, or flip3
+	Example:  ftclient.py flip1 30800 -l 32300
+	Example: ftclient.py flip1 30800 -g myfile.txt 32300
+
+Depending on command and validity 
+	Client will print server directory with -l command
+	Client will save filename in client directory with -g command
+	Client will then close while server still runs
+
+Close Server:
+	To close server use signal interupt: ctrl + c

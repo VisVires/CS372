@@ -409,9 +409,9 @@ void sendDirContents(int sock, char *port, char *hostname){
 
 
 /*
- *
- *
- *
+ *	Function Purpose: Write data to client
+ * 	Input: socket, ptr to start of data, size of data
+ *	Output: Sends data in ptr to client
  *
  *
  */
